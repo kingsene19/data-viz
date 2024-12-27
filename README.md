@@ -10,3 +10,6 @@ Ce dépot contient les TP réalisés dans le cadre du cours de Data Visualizatio
 
 ### TP3 : Matrice d'adjacence des personnages de Games of Thrones
 ![TP3](images/TP3.gif)
+
+### Ressources additionelles
+Voir également le projet réalisé dans le cadre de cette UE : [Cliquez](https://ismailchakrane.github.io/DataViz2024.github.io/)
