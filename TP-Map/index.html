@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    * {
+      font-family: "Poppins", sans-serif;
+      box-sizing: border-box;
+    }
+  </style>
+  <meta charset="utf-8" />
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<style>
+  h1 {
+    text-align: center;
+  }
+</style>
+
+<body>
+  <div id="slider-div">
+    <h1>
+      Evolution des déchets en France <br />
+      entre 2009 et 2021
+    </h1>
+    <input
+      id="slider"
+      type="range"
+      value="2009"
+      min="2009"
+      max="2021"
+      step="2"
+    /><br />
+    <span id="year">Année : 2009</span>
+  </div>
+  <div id="map-div"></div>
+  <script src="script.js"></script>
+</body>

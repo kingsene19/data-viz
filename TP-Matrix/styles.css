@@ -1,0 +1,30 @@
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  body {
+    text-align: center;
+  }
+  .select-container {
+    margin-bottom: 20px;
+  }
+  
+  select {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+  }
+  
+  select:hover {
+    border-color: #45a049;
+    background-color: #e6ffe6;
+  }
+  
+  select:focus {
+    outline: none;
+    border-color: #66bb6a;
+  }
+  
